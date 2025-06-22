@@ -17,6 +17,7 @@ The main objective of this analysis is to derive actionable insights regarding:
 🔍 Identification of high-value and underperforming items
 
 By leveraging SQL queries and stored procedures, this analysis simulates how business stakeholders (e.g., supply chain managers, pricing analysts, and inventory controllers) could monitor performance, detect revenue leaks due to heavy discounts, and prioritize restocking based on product metrics.
+![image_alt](https://github.com/Jalpa-08/SQL_Project_Zepto_Analysis/blob/171a3cb6f5b1d9319a8a39861cee4e3827b84259/TDV_M184_02.jpg)
 ## 🎯 Objective
 The primary objective of this project is to analyze product-level inventory and pricing data from Zepto to uncover meaningful insights that can inform better business decisions. Specifically, the analysis aims to:
 
