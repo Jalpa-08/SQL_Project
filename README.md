@@ -203,7 +203,8 @@ Q10. Calculate stock value loss due to discount per category
 FROM zepto
 WHERE outOfStock = FALSE
 GROUP BY Category
-ORDER BY total_discount_loss_rupees DESC;```
+ORDER BY total_discount_loss_rupees DESC;
+```
 
 Q11.Use a window function to rank products by discount percentage within each category
 ```sql SELECT 
