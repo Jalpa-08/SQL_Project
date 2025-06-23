@@ -231,8 +231,10 @@ SELECT
     zp.discountedSellingPrice - ca.avg_discount_price AS price_deviation
 FROM zepto zp
 JOIN CategoryAverages ca ON zp.Category = ca.Category;
+```
 
--- Q13. Find the heaviest item (by weight × quantity) in stock
+Q13. Find the heaviest item (by weight × quantity) in stock
+```sql
 SELECT name, Category, weightInGms, availableQuantity,
        (weightInGms * availableQuantity) AS total_weight
 FROM zepto
